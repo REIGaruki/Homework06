@@ -47,8 +47,8 @@ public class Main {
         taskNumber = taskNumber + 1;
         System.out.println("\nЗадача " + taskNumber);
         deposit = 0;
-        monthlyDeposition = 29_000;
-        int yearPercentage = 12;
+        //monthlyDeposition = 29_000;
+        float yearPercentage = (float) 12;
         for (int month = 1; month <= 12; month = month + 1) {
             deposit = (deposit * (100 + yearPercentage / 12) / 100 + monthlyDeposition);
             System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");
