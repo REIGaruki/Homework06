@@ -50,5 +50,14 @@ public class Main {
             deposit = (deposit * 110 / 100 + 29_000);
             System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");
         }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        int a, b;
+        for (a = 2; a <= 9; a = a + 1) {
+            System.out.println("Таблица цмножения на " + a);
+            for ( b= 1; b <= 10; b = b + 1) {
+                System.out.println(a + " * " + b + " = " + a * b);
+            }
+        }
     }
 }
