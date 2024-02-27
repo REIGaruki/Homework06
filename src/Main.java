@@ -6,5 +6,10 @@ public class Main {
         for (int i = 1; i <= 10; i = i + 1) {
             System.out.print(i + " ");
         }
+        taskNumber = taskNumber + 1;
+        System.out.println("Задача " + taskNumber);
+        for (int i = 1; i <= 10; i = i + 1) {
+            System.out.print(11 - i + " ");
+        }
     }
 }
