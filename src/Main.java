@@ -7,9 +7,14 @@ public class Main {
             System.out.print(i + " ");
         }
         taskNumber = taskNumber + 1;
-        System.out.println("Задача " + taskNumber);
+        System.out.println("\nЗадача " + taskNumber);
         for (int i = 1; i <= 10; i = i + 1) {
             System.out.print(11 - i + " ");
+        }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        for (int i = 0; i < 17; i = i + 2) {
+            System.out.print(i + " ");
         }
     }
 }
