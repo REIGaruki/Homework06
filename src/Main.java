@@ -38,10 +38,17 @@ public class Main {
         }
         taskNumber = taskNumber + 1;
         System.out.println("\nЗадача " + taskNumber);
-        int deposit = 0;
-        for (int i = 1; i <= 12; i = i + 1) {
+        float deposit = 0f;
+        for (int month = 1; month <= 12; month = month + 1) {
             deposit = deposit + 29_000;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + deposit + " рублей");
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");
+        }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        deposit = 0;
+        for (int month = 1; month <= 12; month = month + 1) {
+            deposit = (deposit * 110 / 100 + 29_000);
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");
         }
     }
 }
