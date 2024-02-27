@@ -36,5 +36,12 @@ public class Main {
         for (int i = 1; i < 1024; i = i * 2) {
             System.out.print(i + " ");
         }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        int deposit = 0;
+        for (int i = 1; i <= 12; i = i + 1) {
+            deposit = deposit + 29_000;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + deposit + " рублей");
+        }
     }
 }
