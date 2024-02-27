@@ -31,5 +31,10 @@ public class Main {
         for (int i = 7; i < 100; i = i + 7) {
             System.out.print(i + " ");
         }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        for (int i = 1; i < 1024; i = i * 2) {
+            System.out.print(i + " ");
+        }
     }
 }
