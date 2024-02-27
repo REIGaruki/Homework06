@@ -21,5 +21,10 @@ public class Main {
         for (int i = 10; i >= -10; i = i - 1) {
             System.out.print(i + " ");
         }
+        taskNumber = taskNumber + 1;
+        System.out.println("\nЗадача " + taskNumber);
+        for (int i = 1904; i < 2100; i = i + 4) {
+            System.out.println(i + "-й год является високосным");
+        }
     }
 }
